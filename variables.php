@@ -53,6 +53,25 @@ $autrePhrase .= $piece;
 
 echo $autrePhrase;
 
+
+// Cas particuliers de l'apostrophe 
+$phrase = 'Je suis à l\'école';
+// Utilisation d'un backslash
+// Echappement de caractère
+
+// Utilisation d'une doubles quotes
+$phrase = "Je suis à l'école et je dis : \"Bonjour\"";
+
+
+// Publipostage de variables 
+$lieu = 'jardin';
+$phrase = "Je suis dans le $lieu"; // La variable est exécutée
+echo $SautDeLigne;
+echo $phrase;
+
+// Identique à :
+$phrase = 'Je suis dans le ' . $lieu;
+
 // ------------------------------------------
 
 //Deuxième type de variable, les nombres ENTIERS
