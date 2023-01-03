@@ -14,3 +14,6 @@ $produitPrixTTC = $produitPrixHT + $produitTVA;
 
 define('PI', 3.14); //Contient une valeur décimale
 define('GENERIC_MESSAGE_ERROR', 'An error occured on line '); //Contient une chaîne de caractères
+
+echo GENERIC_MESSAGE_ERROR . 32;
+
