@@ -145,6 +145,7 @@ $autreCompteur = 12;
 $autreCompteur--; //11
 
 $a=1;
+
 // Ces 3 lignes font la même chose:
 
 $a = $a +1;
@@ -152,3 +153,18 @@ $a +=1;
 $a++;
 
 echo $a;
+
+// ----------------------------------------
+
+// 3ème type de varaible : les nombres DECIMAUX
+
+$unNombreDecimal = 23.34;
+
+// Il faut utiliser le . et non la ,
+
+// On peut utiliser tous les opérateurs de calculs sur les nombres décimaux
+
+$unNombreEntier = 34 + 18;
+$unNombreDecimal = 34 / 18;
+
+// Quand on manipule des nombres entiers, on peut finir avec des nombres décimaux
