@@ -187,3 +187,15 @@ $unNombreEntier = 34 + 18;
 $unNombreDecimal = 34 / 18;
 
 // Quand on manipule des nombres entiers, on peut finir avec des nombres décimaux
+
+
+// En PHP, on peut "tout" concaténer
+
+$nombre = 34;
+$phrase = 'Le SRFC a actuellement' . $nombre . ' points.';
+
+// PHP transforme tout seul le 34 en chaine de caractère pour pouvoir tout concaténer
+// Point d'attention, car PHP fait souvent des choses tout seul, ce qui peut entraipner des effets de bord et donc des bugs
+
+echo $phrase;
+
