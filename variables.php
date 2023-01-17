@@ -3,7 +3,7 @@
 // Le premier type de variable :
 // Les CHAINES DE CARACTERES
 
-// Déclaration d'une varaiblem, utilisation du symbole $
+// Déclaration d'une varaible, utilisation du symbole $
 // Le nommage est très important 
 // Pas de caractères spéciaux, pas d'espace
 // On utilise du camelCase
@@ -198,4 +198,12 @@ $phrase = 'Le SRFC a actuellement' . $nombre . ' points.';
 // Point d'attention, car PHP fait souvent des choses tout seul, ce qui peut entraipner des effets de bord et donc des bugs
 
 echo $phrase;
+
+// ----------------------------------------
+
+// 4ème type de varaible : les BOOLEENS
+// 2 valeurs possibles : true / false (Vrai ou Faux)
+
+$vrai = true; // Toujours en minuscule
+$faux = false;
 
