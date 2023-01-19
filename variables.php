@@ -45,7 +45,7 @@ echo $SautDeLigne;
 echo $autrePhrase;
 
 
-// Opérateur de concaténatio "condensé"
+// Opérateur de concaténation "condensé"
 $autrePhrase = '';  // J'initialise , un seul égal =
 $autrePhrase .= $prenom; // Je remplie, .=
 $autrePhrase .= ' is in the ';
@@ -152,7 +152,7 @@ $somme += 1;
 $somme += 2;
 $somme += 3;
 
-// += et -+ sont souvent utilisés
+// += et -= sont souvent utilisés
 // Les autres beaucoup moins, c'est à l'appréciation du développeur
 
 // Opérateurs d'incrémentation et décrementation
